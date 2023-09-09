@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 1</title>
+    <style>
+        .name{
+            display: none;
+        }
+    </style>
+</head>
+<body>
+   <div class="hello">
+    Hello World
+   </div>
+   <div class="name">
+    I am Ankush
+   </div>
+   <button class="btn">Click me!</button>
+   <script>
+    let button=document.querySelector(".btn");
+button.addEventListener("click", ()=>
+{
+  document.querySelector(".name").style.display="block";
+});
+   </script>
+</body>
+</html>
