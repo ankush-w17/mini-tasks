@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>mini task 3</title>
+</head>
+<body>
+  <button class="blueButton">Blue</button>
+  <button class="greenButton">Green</button>
+  <p class="hello">Hello World</p>
+
+  <script>
+    function changeTextColor(color) {
+      document.querySelector('.hello').style.color = color;
+    }
+    document.querySelector('.blueButton').addEventListener('click', function() {
+      changeTextColor('blue');
+    });
+    document.querySelector('.greenButton').addEventListener('click', function() {
+      changeTextColor('green');
+    });
+  </script>
+</body>
+</html>
